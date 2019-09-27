@@ -1,0 +1,79 @@
+.mainPageTitle{
+    display: block;
+    font-family: Poppins-Bold;
+    font-size: 85px;
+    color: #FFFF;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;
+background-image: url("../pictures/blur04.jpg");
+}
+
+.header-right{
+    margin: 20px auto;
+	text-align: left;
+    position: absolute;
+    left: 50px;
+    top:35%;
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	color: #333;
+	opacity: 0.4;
+	font: 700 80px 'Bitter';
+}
+
+.header-left{
+    margin: 20px auto;
+	text-align: right;
+    position: absolute;
+    right: 50px;
+    top:40%;
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	color: #333;
+	opacity: 0.4;
+	font: 700 80px 'Bitter';
+}
+
+.header-middle{
+    margin: 20px auto;
+
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	color: #333;
+    position: absolute;
+    top:55%;
+    left: 10%;
+	opacity: 0.4;
+	font: 200 50px 'Bitter';
+}
+.mainGreenButton {
+    position: absolute;
+    top: 70%;
+    left: 37.5%;
+    border-radius: 25px;
+    margin-right: -50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    overflow-x:hidden;
+
+}
+
+.ui.card{
+    position:absolute;
+    top: 80%;
+    left: 41%;
+}
+html, body {
+     height: 100%;
+     margin: 0;
+ }
+
+ #wrapper {
+     min-height: 100%;
+ }
